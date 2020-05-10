@@ -6,7 +6,7 @@ import time
 passwordFile = open('contraSecreta.txt')
 secretPassword = passwordFile.read()
 
-# Pedimos la contrasenia al usuairo
+# Pedimos la contrasenia al usuario
 print('Ingresa tu contrasenia: ')
 typedPassword = input()
 
